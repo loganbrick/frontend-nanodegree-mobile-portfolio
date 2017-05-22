@@ -1,23 +1,23 @@
 ## Website Performance Optimization portfolio project
 
-##_Directory Structure_
+## _Directory Structure_
 
-*project root directory
- *src - Contains non-minified files
- *dist - Contains minified files
+* project root directory
+ * src - Contains non-minified files
+ * dist - Contains minified files
 
 The prod contents are active as my GitHub Page for testing purposes.
 
-##__Logan's Optimization Notes__
+## __Logan's Optimization Notes__
 
 The steps I have taked for optimization are as follows:
 
 In _index.html_:
 
-*Optimized Cameron's profile picture and pizzeria.jpg
-*Loading web fonts asynchronously
-*Loading and calling the analytics.js asynchronously
-*Inlined all CSS
+* Optimized Cameron's profile picture and pizzeria.jpg
+* Loading web fonts asynchronously
+* Loading and calling the analytics.js asynchronously
+* Inlined all CSS
 
 In _views/js/main.js_:
 
@@ -30,8 +30,8 @@ In _views/js/main.js_:
 
 In _pizza.html_:
 
-*Optimized the pizza image and pizzeria.jpg
-*Optimized the Bootstrap CSS
+* Optimized the pizza image and pizzeria.jpg
+* Optimized the Bootstrap CSS
 
 
 ## Old contents are below
