@@ -566,7 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     // Warn the browser that the element will likely be transformed
     elem.style.willChange = 'transform';
-    document.getElementById("#movingPizzas1").appendChild(elem);
+    document.querySelector("#movingPizzas1").appendChild(elem);
   }
   updatePositions();
 });
