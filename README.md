@@ -8,6 +8,12 @@
 
 The prod contents are active as my GitHub Page for testing purposes.
 
+## Instructions for Use
+
+Neither Gulp or Grunt were used to optimize the site, and it is currently being hosted at http://loganbrick.github.io. Simply visit the address to use the site.
+
+Alternatively, host the files on any other server and visit the site that way.
+
 ## __Logan's Optimization Notes__
 
 The steps I have taked for optimization are as follows:
