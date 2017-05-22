@@ -1,5 +1,41 @@
 ## Website Performance Optimization portfolio project
 
+##_Directory Structure_
+
+*project root directory
+ *src - Contains non-minified files
+ *dist - Contains minified files
+
+The prod contents are active as my GitHub Page for testing purposes.
+
+##__Logan's Optimization Notes__
+
+The steps I have taked for optimization are as follows:
+
+In _index.html_:
+
+*Optimized Cameron's profile picture and pizzeria.jpg
+*Loading web fonts asynchronously
+*Loading and calling the analytics.js asynchronously
+*Inlined all CSS
+
+In _views/js/main.js_:
+
+* Prevented some layout thrashing by moving body.scrollTop outside of the loop in the updatePositions function
+* Changed the amount of moving pizza loop iterations by calculating the maximum amount of oscillating pizzas to be shown on the screen
+* Precalculated the locations of the oscillating pizzas since there were only 5 relative locations they can be in
+* Used transformX rather than setting the 'left' property for the oscillating pizzas and warned the browser the element will transform
+* Re-wrote the logic behind the pizza slider as the old was unnecessarily complex and forced synchronous layouts
+
+
+In _pizza.html_:
+
+*Optimized the pizza image and pizzeria.jpg
+*Optimized the Bootstrap CSS
+
+
+## Old contents are below
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository and inspect the code.
@@ -32,7 +68,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 #### Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
