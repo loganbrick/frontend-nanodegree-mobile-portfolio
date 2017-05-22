@@ -3,8 +3,8 @@
 ## _Directory Structure_
 
 * project root directory
- * src - Contains non-minified files
- * dist - Contains minified files
+  * src - Contains non-minified files
+  * dist - Contains minified files
 
 The prod contents are active as my GitHub Page for testing purposes.
 
